@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUICodingChallengeRuvinskiyApp: App {
+    var favoriteQuotes = FavoriteQuotes()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthorTabView()
+                .environmentObject(favoriteQuotes)
         }
     }
 }
