@@ -1,5 +1,5 @@
 //
-//  FavoriteQuoteView.swift
+//  FavoriteQuoteListView.swift
 //  SwiftUICodingChallengeRuvinskiy
 //
 //  Created by David Ruvinskiy on 1/20/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FavoriteQuoteView: View {
+struct FavoriteQuoteListView: View {
     @EnvironmentObject var favoriteQuotes: FavoriteQuotes
     
     var body: some View {
@@ -29,7 +29,7 @@ struct FavoriteQuoteView: View {
 
 struct FavoriteQuoteView_Previews: PreviewProvider {
     static var previews: some View {
-        FavoriteQuoteView()
+        FavoriteQuoteListView()
             .environmentObject(FavoriteQuotes())
     }
 }

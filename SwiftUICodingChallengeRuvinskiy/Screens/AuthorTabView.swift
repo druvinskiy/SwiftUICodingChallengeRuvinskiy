@@ -16,7 +16,7 @@ struct AuthorTabView: View {
                     Text("Home")
                 }
             
-            FavoriteQuoteView()
+            FavoriteQuoteListView()
                 .tabItem {
                     Image(systemName: "heart")
                     Text("Favorite Quotes")

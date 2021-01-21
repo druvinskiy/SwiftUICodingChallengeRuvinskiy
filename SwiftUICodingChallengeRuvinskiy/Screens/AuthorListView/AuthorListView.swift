@@ -10,7 +10,6 @@ import SwiftUI
 struct AuthorListView: View {
     @StateObject var viewModel = AuthorListViewModel()
     
-    
     var body: some View {
         ZStack {
             NavigationView {
@@ -22,9 +21,9 @@ struct AuthorListView: View {
                             Text(viewModel.filteredAuthors[index])
                                 .font(.title2)
                                 .fontWeight(.medium)
-                            
                         }
                     }
+                    .id(UUID())
                     .listStyle(PlainListStyle())
                     .navigationTitle("✍️ Authors")
                 }

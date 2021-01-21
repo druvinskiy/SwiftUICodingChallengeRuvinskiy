@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B85F96EB25B7DFC500D82A7F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F96EA25B7DFC500D82A7F /* SearchBar.swift */; };
 		B85F96F125B8B20800D82A7F /* AuthorTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F96F025B8B20800D82A7F /* AuthorTabView.swift */; };
-		B85F96F525B8B2AD00D82A7F /* FavoriteQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F96F425B8B2AD00D82A7F /* FavoriteQuoteView.swift */; };
+		B85F96F525B8B2AD00D82A7F /* FavoriteQuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F96F425B8B2AD00D82A7F /* FavoriteQuoteListView.swift */; };
 		B85F96F825B8B56C00D82A7F /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F96F725B8B56C00D82A7F /* EmptyState.swift */; };
 		B85F96FC25B8BA4F00D82A7F /* QuoteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F96FB25B8BA4F00D82A7F /* QuoteListCell.swift */; };
 		B85F96FF25B8BDEC00D82A7F /* FavoriteQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F96FE25B8BDEC00D82A7F /* FavoriteQuotes.swift */; };
@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		B85F96EA25B7DFC500D82A7F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		B85F96F025B8B20800D82A7F /* AuthorTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorTabView.swift; sourceTree = "<group>"; };
-		B85F96F425B8B2AD00D82A7F /* FavoriteQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteQuoteView.swift; sourceTree = "<group>"; };
+		B85F96F425B8B2AD00D82A7F /* FavoriteQuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteQuoteListView.swift; sourceTree = "<group>"; };
 		B85F96F725B8B56C00D82A7F /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		B85F96FB25B8BA4F00D82A7F /* QuoteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListCell.swift; sourceTree = "<group>"; };
 		B85F96FE25B8BDEC00D82A7F /* FavoriteQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteQuotes.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		B85F96F325B8B26400D82A7F /* FavoriteQuoteView */ = {
 			isa = PBXGroup;
 			children = (
-				B85F96F425B8B2AD00D82A7F /* FavoriteQuoteView.swift */,
+				B85F96F425B8B2AD00D82A7F /* FavoriteQuoteListView.swift */,
 			);
 			path = FavoriteQuoteView;
 			sourceTree = "<group>";
@@ -271,7 +271,7 @@
 				B892815C25B7C7C600AD32B2 /* LoadingView.swift in Sources */,
 				B85F96FC25B8BA4F00D82A7F /* QuoteListCell.swift in Sources */,
 				B892812D25B7638E00AD32B2 /* DRError.swift in Sources */,
-				B85F96F525B8B2AD00D82A7F /* FavoriteQuoteView.swift in Sources */,
+				B85F96F525B8B2AD00D82A7F /* FavoriteQuoteListView.swift in Sources */,
 				B892814C25B77CE900AD32B2 /* AuthorQuoteListView.swift in Sources */,
 				B892812425B7619A00AD32B2 /* NetworkManager.swift in Sources */,
 				B85F96F125B8B20800D82A7F /* AuthorTabView.swift in Sources */,
